@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main
+public class Right_Half_Pyramid
 {
     public static void main(String[] args)
     {
