@@ -10,10 +10,15 @@ public class Full_Pyramid {
         {
             for(int j=0;j<=n+i;j++)
             {
-                if((j>=n-i)&&(j<=n+i))
+                if((j>=n-i)&&(j<=n+i)&&k==0)
+                {
                 System.out.print("*");
-                else
+                k=1;
+                }
+                else{
                 System.out.print(" ");
+                k=0;
+                }
             }
             System.out.println();
         }
