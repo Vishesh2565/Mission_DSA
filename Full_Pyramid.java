@@ -9,6 +9,7 @@ public class Full_Pyramid {
         for(int i=0;i<n;i++)
         {
             for(int j=0;j<=n+i;j++)
+
             {
                 if((j>=n-i)&&(j<=n+i)&&k==0)
                 {
@@ -22,6 +23,5 @@ public class Full_Pyramid {
             }
             System.out.println();
         }
-
     }
 }
