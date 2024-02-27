@@ -10,7 +10,5 @@ public class Left_Rotation {
         System.out.println("Enter the number to rotate");
         int d=sc.nextInt();
         System.out.println(s.substring(d,s.length())+s.substring(0,d));
-
-
     }
 }
